@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  max-width: 870px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-left: 24px;
+  color: #bf7506;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.--active {
+  font-weight: 700;
+}
