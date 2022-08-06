@@ -10,11 +10,9 @@ body {
 
 .navbar {
   display: flex;
-  width: 100%;
-  max-width: 870px;
   align-items: center;
   justify-content: space-between;
-  margin: auto;
+  padding-top: 30px;
 }
 
 .nav-list {
@@ -31,6 +29,75 @@ body {
   line-height: 150%;
 }
 
+.container {
+  width: 100%;
+  max-width: 870px;
+  margin: auto;
+}
+
+.header {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  margin-left: 27px;
+}
+
+.header-strong {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.header-heading {
+  font-size: 24px;
+  line-height: 135%;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.social-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-link{
+  display: inline-block;
+  padding: 8px;
+}
+
+.social-logo{
+  width: 24px;
+}
+
+.header-links{
+  display: flex;
+  align-items: center;
+}
+
+.cv-download{
+  display: flex;
+  align-items: center;
+  padding: 7px 8px;
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #211B12;
+  text-decoration: none;
+  border-bottom: 2px solid #BF7506;
+}
+
+.cv-icon{
+  margin-right: 4px;
+}
+
+
 .--active {
   font-weight: 700;
+  color: #bf7506;
 }
